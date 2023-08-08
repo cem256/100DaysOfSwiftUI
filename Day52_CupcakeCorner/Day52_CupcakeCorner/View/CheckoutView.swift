@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct CheckoutView: View {
-    @ObservedObject var order: OrderViewModel
-
-    @State private var confirmationMessage = ""
-    @State private var alertTitle = ""
-    @State private var showingConfirmation = false
+    @ObservedObject var orderViewModel: OrderViewModel
 
     var body: some View {
         ScrollView {
@@ -26,12 +22,12 @@ struct CheckoutView: View {
                 }
                 .frame(height: 233)
 
-                Text("Your total is \(order.model.cost, format: .currency(code: "USD"))")
+                Text("Your total is \(orderViewModel.model.cost, format: .currency(code: "USD"))")
                     .font(.title)
 
                 Button("Place Order") {
                     Task {
-                        await placeOrder()
+                        await orderViewModel.placeOrder(order: orderViewModel.model)
                     }
                 }
                 .padding()
@@ -39,42 +35,18 @@ struct CheckoutView: View {
         }
         .navigationTitle("Check out")
         .navigationBarTitleDisplayMode(.inline)
-        .alert(alertTitle, isPresented: $showingConfirmation) {
+        .alert(orderViewModel.alertTitle, isPresented: $orderViewModel.showingConfirmation) {
             Button("OK") { }
         } message: {
-            Text(confirmationMessage)
+            Text(orderViewModel.alertDescription)
         }
     }
 
-    func placeOrder() async {
-        guard let encoded = try? JSONEncoder().encode(order.model) else {
-            print("Failed to encode order")
-            return
-        }
 
-        let url = URL(string: "https://reqres.in/api/cupcakes")!
-        var request = URLRequest(url: url)
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpMethod = "POST"
-
-        do {
-            let (data, _) = try await URLSession.shared.upload(for: request, from: encoded)
-
-            let decodedOrder = try JSONDecoder().decode(OrderModel.self, from: data)
-            alertTitle = "Thank You"
-            confirmationMessage = "Your order for \(decodedOrder.quantity)x \(OrderModel.types[decodedOrder.selectedTypeIndex].lowercased()) cupcakes is on its way!"
-            showingConfirmation = true
-        } catch {
-            print("Checkout failed.")
-            alertTitle = "Oops"
-            confirmationMessage = "Something went wrong while processing your order"
-            showingConfirmation = true
-        }
-    }
 }
 
 struct CheckoutView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckoutView(order: OrderViewModel(model: OrderModel()))
+        CheckoutView(orderViewModel: OrderViewModel(model: OrderModel()))
     }
 }
