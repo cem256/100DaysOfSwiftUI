@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B915D32A8A5A83005E2F6B /* Day85_HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915D22A8A5A83005E2F6B /* Day85_HotProspectsApp.swift */; };
+		B2B915D52A8A5A83005E2F6B /* ProspectTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915D42A8A5A83005E2F6B /* ProspectTabView.swift */; };
+		B2B915D72A8A5A84005E2F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B915D62A8A5A84005E2F6B /* Assets.xcassets */; };
+		B2B915DA2A8A5A84005E2F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B915D92A8A5A84005E2F6B /* Preview Assets.xcassets */; };
+		B2B915E42A8A5C5D005E2F6B /* Day85-HotProspects-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2B915E32A8A5C5D005E2F6B /* Day85-HotProspects-Info.plist */; };
+		B2B915E62A8A5C8F005E2F6B /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915E52A8A5C8F005E2F6B /* ImageSaver.swift */; };
+		B2B915E92A8A5CB9005E2F6B /* ProspectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915E82A8A5CB9005E2F6B /* ProspectModel.swift */; };
+		B2B915ED2A8A5D49005E2F6B /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915EC2A8A5D49005E2F6B /* ProspectsView.swift */; };
+		B2B915F02A8A5D8F005E2F6B /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = B2B915EF2A8A5D8F005E2F6B /* CodeScanner */; };
+		B2B915F22A8A5DED005E2F6B /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915F12A8A5DED005E2F6B /* MeView.swift */; };
+		B2B915F42A8A629F005E2F6B /* FileManager+DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B915F32A8A629F005E2F6B /* FileManager+DocumentsDirectory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2B915CF2A8A5A83005E2F6B /* Day85_HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day85_HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B915D22A8A5A83005E2F6B /* Day85_HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day85_HotProspectsApp.swift; sourceTree = "<group>"; };
+		B2B915D42A8A5A83005E2F6B /* ProspectTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectTabView.swift; sourceTree = "<group>"; };
+		B2B915D62A8A5A84005E2F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2B915D92A8A5A84005E2F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2B915E32A8A5C5D005E2F6B /* Day85-HotProspects-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Day85-HotProspects-Info.plist"; sourceTree = "<group>"; };
+		B2B915E52A8A5C8F005E2F6B /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		B2B915E82A8A5CB9005E2F6B /* ProspectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectModel.swift; sourceTree = "<group>"; };
+		B2B915EC2A8A5D49005E2F6B /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		B2B915F12A8A5DED005E2F6B /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		B2B915F32A8A629F005E2F6B /* FileManager+DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+DocumentsDirectory.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B915CC2A8A5A83005E2F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B915F02A8A5D8F005E2F6B /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B915C62A8A5A83005E2F6B = {
+			isa = PBXGroup;
+			children = (
+				B2B915E32A8A5C5D005E2F6B /* Day85-HotProspects-Info.plist */,
+				B2B915D12A8A5A83005E2F6B /* Day85_HotProspects */,
+				B2B915D02A8A5A83005E2F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B915D02A8A5A83005E2F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915CF2A8A5A83005E2F6B /* Day85_HotProspects.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B915D12A8A5A83005E2F6B /* Day85_HotProspects */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915E72A8A5CA7005E2F6B /* Model */,
+				B2B915EA2A8A5CD6005E2F6B /* Utils */,
+				B2B915EB2A8A5D1F005E2F6B /* Views */,
+				B2B915D22A8A5A83005E2F6B /* Day85_HotProspectsApp.swift */,
+				B2B915D62A8A5A84005E2F6B /* Assets.xcassets */,
+				B2B915D82A8A5A84005E2F6B /* Preview Content */,
+			);
+			path = Day85_HotProspects;
+			sourceTree = "<group>";
+		};
+		B2B915D82A8A5A84005E2F6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915D92A8A5A84005E2F6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2B915E72A8A5CA7005E2F6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915E82A8A5CB9005E2F6B /* ProspectModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2B915EA2A8A5CD6005E2F6B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915E52A8A5C8F005E2F6B /* ImageSaver.swift */,
+				B2B915F32A8A629F005E2F6B /* FileManager+DocumentsDirectory.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2B915EB2A8A5D1F005E2F6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2B915D42A8A5A83005E2F6B /* ProspectTabView.swift */,
+				B2B915EC2A8A5D49005E2F6B /* ProspectsView.swift */,
+				B2B915F12A8A5DED005E2F6B /* MeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B915CE2A8A5A83005E2F6B /* Day85_HotProspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B915DD2A8A5A84005E2F6B /* Build configuration list for PBXNativeTarget "Day85_HotProspects" */;
+			buildPhases = (
+				B2B915CB2A8A5A83005E2F6B /* Sources */,
+				B2B915CC2A8A5A83005E2F6B /* Frameworks */,
+				B2B915CD2A8A5A83005E2F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day85_HotProspects;
+			packageProductDependencies = (
+				B2B915EF2A8A5D8F005E2F6B /* CodeScanner */,
+			);
+			productName = Day85_HotProspects;
+			productReference = B2B915CF2A8A5A83005E2F6B /* Day85_HotProspects.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B915C72A8A5A83005E2F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2B915CE2A8A5A83005E2F6B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B2B915CA2A8A5A83005E2F6B /* Build configuration list for PBXProject "Day85_HotProspects" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2B915C62A8A5A83005E2F6B;
+			packageReferences = (
+				B2B915EE2A8A5D8F005E2F6B /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = B2B915D02A8A5A83005E2F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B915CE2A8A5A83005E2F6B /* Day85_HotProspects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B915CD2A8A5A83005E2F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B915E42A8A5C5D005E2F6B /* Day85-HotProspects-Info.plist in Resources */,
+				B2B915DA2A8A5A84005E2F6B /* Preview Assets.xcassets in Resources */,
+				B2B915D72A8A5A84005E2F6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B915CB2A8A5A83005E2F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B915F22A8A5DED005E2F6B /* MeView.swift in Sources */,
+				B2B915D52A8A5A83005E2F6B /* ProspectTabView.swift in Sources */,
+				B2B915F42A8A629F005E2F6B /* FileManager+DocumentsDirectory.swift in Sources */,
+				B2B915E62A8A5C8F005E2F6B /* ImageSaver.swift in Sources */,
+				B2B915ED2A8A5D49005E2F6B /* ProspectsView.swift in Sources */,
+				B2B915D32A8A5A83005E2F6B /* Day85_HotProspectsApp.swift in Sources */,
+				B2B915E92A8A5CB9005E2F6B /* ProspectModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2B915DB2A8A5A84005E2F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2B915DC2A8A5A84005E2F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B915DE2A8A5A84005E2F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day85_HotProspects/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PPSAUCCF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day85-HotProspects-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cem256.Day85-HotProspects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B915DF2A8A5A84005E2F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day85_HotProspects/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PPSAUCCF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day85-HotProspects-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cem256.Day85-HotProspects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B915CA2A8A5A83005E2F6B /* Build configuration list for PBXProject "Day85_HotProspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B915DB2A8A5A84005E2F6B /* Debug */,
+				B2B915DC2A8A5A84005E2F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B915DD2A8A5A84005E2F6B /* Build configuration list for PBXNativeTarget "Day85_HotProspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B915DE2A8A5A84005E2F6B /* Debug */,
+				B2B915DF2A8A5A84005E2F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2B915EE2A8A5D8F005E2F6B /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2B915EF2A8A5D8F005E2F6B /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B915EE2A8A5D8F005E2F6B /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B2B915C72A8A5A83005E2F6B /* Project object */;
+}
