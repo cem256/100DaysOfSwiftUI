@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2BD4C472A8D645E00132D3C /* FileManager+DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD4C462A8D645E00132D3C /* FileManager+DocumentsDirectory.swift */; };
+		B2C4C1CB2A8D494D00D15294 /* Day91_FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1CA2A8D494D00D15294 /* Day91_FlashzillaApp.swift */; };
+		B2C4C1CD2A8D494D00D15294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1CC2A8D494D00D15294 /* ContentView.swift */; };
+		B2C4C1CF2A8D494E00D15294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C4C1CE2A8D494E00D15294 /* Assets.xcassets */; };
+		B2C4C1D22A8D494E00D15294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C4C1D12A8D494E00D15294 /* Preview Assets.xcassets */; };
+		B2C4C1D92A8D49F000D15294 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1D82A8D49F000D15294 /* Card.swift */; };
+		B2C4C1DB2A8D4A0B00D15294 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1DA2A8D4A0B00D15294 /* CardView.swift */; };
+		B2C4C1DD2A8D4A5200D15294 /* EditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1DC2A8D4A5200D15294 /* EditCardsView.swift */; };
+		B2C4C1DF2A8D54F800D15294 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4C1DE2A8D54F800D15294 /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2BD4C462A8D645E00132D3C /* FileManager+DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		B2C4C1C72A8D494D00D15294 /* Day91_Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day91_Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C4C1CA2A8D494D00D15294 /* Day91_FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day91_FlashzillaApp.swift; sourceTree = "<group>"; };
+		B2C4C1CC2A8D494D00D15294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2C4C1CE2A8D494E00D15294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C4C1D12A8D494E00D15294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2C4C1D82A8D49F000D15294 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B2C4C1DA2A8D4A0B00D15294 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B2C4C1DC2A8D4A5200D15294 /* EditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView.swift; sourceTree = "<group>"; };
+		B2C4C1DE2A8D54F800D15294 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C4C1C42A8D494D00D15294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2BD4C422A8D630B00132D3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1DA2A8D4A0B00D15294 /* CardView.swift */,
+				B2C4C1CC2A8D494D00D15294 /* ContentView.swift */,
+				B2C4C1DC2A8D4A5200D15294 /* EditCardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2BD4C432A8D632A00132D3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1D82A8D49F000D15294 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2BD4C442A8D633600132D3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1DE2A8D54F800D15294 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B2BD4C452A8D643D00132D3C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2BD4C462A8D645E00132D3C /* FileManager+DocumentsDirectory.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2C4C1BE2A8D494D00D15294 = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1C92A8D494D00D15294 /* Day91_Flashzilla */,
+				B2C4C1C82A8D494D00D15294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C4C1C82A8D494D00D15294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1C72A8D494D00D15294 /* Day91_Flashzilla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C4C1C92A8D494D00D15294 /* Day91_Flashzilla */ = {
+			isa = PBXGroup;
+			children = (
+				B2BD4C432A8D632A00132D3C /* Models */,
+				B2BD4C442A8D633600132D3C /* ViewModels */,
+				B2BD4C422A8D630B00132D3C /* Views */,
+				B2BD4C452A8D643D00132D3C /* Utils */,
+				B2C4C1D02A8D494E00D15294 /* Preview Content */,
+				B2C4C1CA2A8D494D00D15294 /* Day91_FlashzillaApp.swift */,
+				B2C4C1CE2A8D494E00D15294 /* Assets.xcassets */,
+			);
+			path = Day91_Flashzilla;
+			sourceTree = "<group>";
+		};
+		B2C4C1D02A8D494E00D15294 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4C1D12A8D494E00D15294 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C4C1C62A8D494D00D15294 /* Day91_Flashzilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C4C1D52A8D494E00D15294 /* Build configuration list for PBXNativeTarget "Day91_Flashzilla" */;
+			buildPhases = (
+				B2C4C1C32A8D494D00D15294 /* Sources */,
+				B2C4C1C42A8D494D00D15294 /* Frameworks */,
+				B2C4C1C52A8D494D00D15294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day91_Flashzilla;
+			productName = Day91_Flashzilla;
+			productReference = B2C4C1C72A8D494D00D15294 /* Day91_Flashzilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C4C1BF2A8D494D00D15294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B2C4C1C62A8D494D00D15294 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B2C4C1C22A8D494D00D15294 /* Build configuration list for PBXProject "Day91_Flashzilla" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C4C1BE2A8D494D00D15294;
+			productRefGroup = B2C4C1C82A8D494D00D15294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C4C1C62A8D494D00D15294 /* Day91_Flashzilla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C4C1C52A8D494D00D15294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C4C1D22A8D494E00D15294 /* Preview Assets.xcassets in Resources */,
+				B2C4C1CF2A8D494E00D15294 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C4C1C32A8D494D00D15294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C4C1CD2A8D494D00D15294 /* ContentView.swift in Sources */,
+				B2C4C1D92A8D49F000D15294 /* Card.swift in Sources */,
+				B2BD4C472A8D645E00132D3C /* FileManager+DocumentsDirectory.swift in Sources */,
+				B2C4C1DF2A8D54F800D15294 /* ContentViewModel.swift in Sources */,
+				B2C4C1DB2A8D4A0B00D15294 /* CardView.swift in Sources */,
+				B2C4C1DD2A8D4A5200D15294 /* EditCardsView.swift in Sources */,
+				B2C4C1CB2A8D494D00D15294 /* Day91_FlashzillaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2C4C1D32A8D494E00D15294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C4C1D42A8D494E00D15294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C4C1D62A8D494E00D15294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day91_Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PPSAUCCF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cem256.Day91-Flashzilla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C4C1D72A8D494E00D15294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day91_Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PPSAUCCF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cem256.Day91-Flashzilla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C4C1C22A8D494D00D15294 /* Build configuration list for PBXProject "Day91_Flashzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C4C1D32A8D494E00D15294 /* Debug */,
+				B2C4C1D42A8D494E00D15294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C4C1D52A8D494E00D15294 /* Build configuration list for PBXNativeTarget "Day91_Flashzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C4C1D62A8D494E00D15294 /* Debug */,
+				B2C4C1D72A8D494E00D15294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C4C1BF2A8D494D00D15294 /* Project object */;
+}
